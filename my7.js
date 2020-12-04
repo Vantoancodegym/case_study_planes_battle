@@ -14,10 +14,10 @@ function startGame(){
         gameBoard.autoMoveEnemyPlanes();
         gameBoard.drawAllPlanes();
         gameBoard.checkOutMap();
+        gameBoard.increaseLevel()
         gameBoard.setMoveBullet();
         gameBoard.drawAllBullet();
         gameBoard.drawScore();
-        gameBoard.increaseLevel()
         gameBoard.drawLife();
         gameBoard.drawHp();
         bonus.checkEatBonus()

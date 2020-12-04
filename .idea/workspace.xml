@@ -22,8 +22,8 @@
     <list default="true" id="227f1b27-fcae-4ce9-97c8-8caf62beddfe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classGameBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/classGameBoard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classPlanes.js" beforeDir="false" afterPath="$PROJECT_DIR$/classPlanes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my7.js" beforeDir="false" afterPath="$PROJECT_DIR$/my7.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1606910979092" duration="10903000" />
       <workItem from="1606957037597" duration="27026000" />
       <workItem from="1607001284945" duration="6326000" />
-      <workItem from="1607043466047" duration="6248000" />
+      <workItem from="1607043466047" duration="6986000" />
     </task>
     <servers />
   </component>
@@ -94,5 +94,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607045355835" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/classBullet.js</url>
+          <line>23</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

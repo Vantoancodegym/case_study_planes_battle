@@ -15,7 +15,7 @@ const BOSS_COLOR = "violet";
 const ENEMY_HP = 50;
 const BOSS_HP = 200;
 const BOSS_SIZE = 40;
-let enemy_speed=5;
+let enemy_speed=3;
 
 const BULLET_DEFAULT_RADIUS = 2;
 const BULLET_DEFAULT_SPEED = 20;

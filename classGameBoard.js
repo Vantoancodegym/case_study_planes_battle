@@ -223,13 +223,13 @@ class GameBoard {
         }
     }
     increaseLevel(){
-        if (this.score==30){
+        if (this.score==20){
             for (let i = 1; i < 9; i++) {
-                allPlanes[i].speed=10;
+                allPlanes[i].speed=6;
             }
-        }else if (this.score==60){
+        }else if (this.score==40){
             for (let i = 1; i < 9; i++) {
-                allPlanes[i].speed=20;
+                allPlanes[i].speed=9;
             }
         }
 
