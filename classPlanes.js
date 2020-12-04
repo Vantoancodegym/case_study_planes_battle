@@ -5,23 +5,24 @@ class Planes{
     this.speed = speed;
     this.hp = hp;
     this.color = color;
-    this.isAlive = true;
     this.isDisapear = false;
     this.orientation = ORIENTATION_DEFAULT;
     this.canvas = canvas;
     this.ctx = this.canvas.getContext('2d');
     }
+    setOrientation(orientation){
+        this.orientation=orientation;
+    }
 
     takeDamage(bullet) {
             if(this.hp <= bullet.damage){
                 this.hp = 0;
-                this.isAlive = false;
                 if(this == allPlanes[0]){
-                    gameBoard.die();
-                    // gameBoard.score = 0;
+                    gameBoard.checkDie();
                 }else {
+                    explosionAudio.play();
                     gameBoard.score ++;
-                    this.disapear();
+                    this.isDisapear=true;
                     this.apear();
                 }
             }else {
@@ -36,26 +37,18 @@ class Planes{
     checkCollision(){
         for (let i = 1; i <allPlanes.length ; i++) {
             if(((allPlanes[0].x-IMAGE_PLANE_SIZE/2<=allPlanes[i].x&& allPlanes[0].x+IMAGE_PLANE_SIZE/2>=allPlanes[i].x)
-                &&(allPlanes[0].y==allPlanes[i].y))||
-                ((allPlanes[0].x==allPlanes[i].x)&&
-                 (allPlanes[0].y-IMAGE_PLANE_SIZE/2<=allPlanes[i].y&& allPlanes[0].y+IMAGE_PLANE_SIZE/2>=allPlanes[i].y))){
-                 gameBoard.die();
+                && (allPlanes[0].y-IMAGE_PLANE_SIZE/2<=allPlanes[i].y&& allPlanes[0].y+IMAGE_PLANE_SIZE/2>=allPlanes[i].y))){
+                 gameBoard.checkDie();
             }
         }
     }
 
-    disapear() {
-        if(this.isAlive == false) {
-            this.isDisapear = true;
-        }
-    };
-
     apear() {
-        if(this.isDisapear){ //clean được
+        if(this.isDisapear){
                     this.x = random(this.canvas.width-IMAGE_PLANE_SIZE, 0);
                     this.y = random(this.canvas.height-IMAGE_PLANE_SIZE, 0);
             }
-            this.isAlive = true;
+            this.isDisapear= false;
             this.hp = ENEMY_HP;
         }
 

@@ -1,15 +1,18 @@
-let flag = true;
+let flag = false;
+let flagBonus = false;
 let gameBoard = new GameBoard();
 let allPlanes = [];
 let allBullet = [];
-gameBoard.buildPlane();
+let bonus = new Bonus(random(canvas.width-IMAGE_PLANE_SIZE, 0),random(canvas.height-IMAGE_PLANE_SIZE, 0))
+gameBoard.buildPlanes();
 
 function startGame(){
     run = setInterval(function (){
         gameBoard.clearRect();
         gameBoard.drawBackGround();
-        gameBoard.drawAllPlanes();
+        bonus.drawBonus()
         gameBoard.autoMoveEnemyPlanes();
+        gameBoard.drawAllPlanes();
         gameBoard.checkOutMap();
         gameBoard.setMoveBullet();
         gameBoard.drawAllBullet();
@@ -17,6 +20,8 @@ function startGame(){
         gameBoard.increaseLevel()
         gameBoard.drawLife();
         gameBoard.drawHp();
+        bonus.checkEatBonus()
+        gameBoard.checkEndGame()
     }, TIME_SETINTERVAL_DEFAULT);
     flag=true;
 }
@@ -24,6 +29,5 @@ function pauseGame(){
     clearInterval(run);
     flag = false;
 }
-startGame();
 
 

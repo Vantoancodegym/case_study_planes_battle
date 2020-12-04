@@ -39,21 +39,18 @@ class Bullet {
         }
     };
     // checkCollisionBullet(){
-    //     if (this.plane=allPlanes[0]){
+    //     if (this.plane==allPlanes[0]){
     //     for (let i = 0; i < allBullet.length; i++) {
-    //         for (let j = 0; j < allBullet.length; j++) {
-    //            if (i==j){
-    //                continue
-    //            }
-    //            if (allBullet[i].x==allBullet[j].x&&allBullet[i].y==allBullet[j].y){
+    //        if (this!=allBullet[i]){
+    //            if (this.x==allBullet[i].x&&this.y==allBullet[i].y){
     //                allBullet[i].isCollision=true;
-    //                allBullet[j].isCollision=true;
+    //                this.isCollision=true;
+    //                this.disapear();
     //                allBullet[i].disapear();
-    //                allBullet[j].disapear();
     //            }
     //         }
     //     }
-    // }
+    //     }
     // }
 
 

@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <title>Planes Battle</title>
 </head>
-<body onload="doReady();">
+<body onload="doReady();gameBoard.drawBackGroundBegin()">
 <center><canvas id="myCanvas" width="600px" height="500px" style="border: 1px solid red"></canvas></center>
+<img src="img/backgroundBegin.png" id="background-begin" style="display: none">
+<img src="img/gameOver.png" id="gameOver" style="display: none">
 <img src="img/background.png" id="background" style="display: none">
+<img src="img/boss.png" id="plane-down-violet" style="display: none">
 <img src="img/planesUp.png" id="plane-up-red" style="display: none">
 <img src="img/planesDown.png" id="plane-down-red" style="display: none">
 <img src="img/planesLeft.png" id="plane-left-red" style="display: none">
@@ -15,12 +18,21 @@
 <img src="img/enmyDown.png" id="plane-down-yellow" style="display: none">
 <img src="img/enmyLeft.png" id="plane-left-yellow" style="display: none">
 <img src="img/enmyRight.png" id="plane-right-yellow" style="display: none">
+<img src="img/bonus.png" id="bonus" style="display: none">
+<audio autoplay loop src="audio/backgroundAudio.mp3" id="backgroundAudio" style="display: none"></audio>
+<audio controls src="audio/chiuchiu.mp3" id="chiu" style="display: none" ></audio>
+<audio controls src="audio/Explosion+3.mp3" id="explosion" style="display: none" ></audio>
+<audio controls src="audio/toang.mp3" id="toang" style="display: none" ></audio>
+<audio controls src="audio/bossDen.mp3" id="bossDen" style="display: none" ></audio>
+<audio controls src="audio/thuacuoc.mp3" id="gameOverAudio" style="display: none" ></audio>
+<audio controls src="audio/bonusAudio.mp3" id="bonusAudio" style="display: none" ></audio>
 <script src="my.js"></script>
 <script src="const.js"></script>
+<script src="classPlanes.js"></script>
 <script src="classBullet.js"></script>
 <script src="classGameBoard.js"></script>
-<script src="classPlanes.js"></script>
 <script src="eventKeyUp.js"></script>
+<script src="bonus.js"></script>
 <script src="my7.js"></script>
 </body>
 </html>

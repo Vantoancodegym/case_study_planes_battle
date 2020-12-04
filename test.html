@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="makeBonus()">
+<center><canvas id="myCanvas" width="600px" height="500px" style="border: 1px solid red"></canvas></center>
+<img src="img/bonus.png" id="bonus">
+<img src="img/background.png" id="background">
+<script>
+    let canvas= document.getElementById("myCanvas");
+    let ctx=canvas.getContext('2d');
+    let img = document.getElementById("bonus");
+    let img2 = document.getElementById("background");
+    let count=0;
+    function update(){
+        if(count < 5) {
+            count++;
+        }else{
+            count = 0;
+        }
+    }
+    function makeBonus() {
+                update();
+                ctx.beginPath();
+                ctx.drawImage(img2,0,0)
+                ctx.drawImage(img,40*count , 0, 40, 40,0,0,40,40)
+        setTimeout(makeBonus,60)
+    }
+
+</script>
+
+</body>
+</html>

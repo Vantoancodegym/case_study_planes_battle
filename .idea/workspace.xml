@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="227f1b27-fcae-4ce9-97c8-8caf62beddfe" name="Default Changelist" comment="" />
+    <list default="true" id="227f1b27-fcae-4ce9-97c8-8caf62beddfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bonus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlanesBattle.html" beforeDir="false" afterPath="$PROJECT_DIR$/PlanesBattle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classBullet.js" beforeDir="false" afterPath="$PROJECT_DIR$/classBullet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classGameBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/classGameBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classPlanes.js" beforeDir="false" afterPath="$PROJECT_DIR$/classPlanes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eventKeyUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/eventKeyUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my7.js" beforeDir="false" afterPath="$PROJECT_DIR$/my7.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +44,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kzj6RGjlYMbsTyrBa0T2RLcjgu" />
   <component name="ProjectViewState">
@@ -40,10 +73,26 @@
       <workItem from="1606804393719" duration="7423000" />
       <workItem from="1606825322881" duration="14858000" />
       <workItem from="1606872090466" duration="27123000" />
+      <workItem from="1606904551721" duration="726000" />
+      <workItem from="1606910979092" duration="10903000" />
+      <workItem from="1606957037597" duration="27026000" />
+      <workItem from="1607001284945" duration="6326000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
