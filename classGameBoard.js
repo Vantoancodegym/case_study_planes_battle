@@ -192,6 +192,7 @@ class GameBoard {
 
     drawAllBullet() {
         for(let i=0; i<allBullet.length; i++){
+            randomColor();
             allBullet[i].drawBullet();
         }
     };

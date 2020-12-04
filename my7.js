@@ -9,7 +9,6 @@ gameBoard.buildPlanes();
 function startGame(){
     run = setInterval(function (){
         gameBoard.clearRect();
-        randomColor();
         gameBoard.drawBackGround();
         bonus.drawBonus()
         gameBoard.autoMoveEnemyPlanes();
