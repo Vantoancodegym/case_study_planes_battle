@@ -212,7 +212,7 @@ class GameBoard {
             pauseGame();
             this.drawGameOver()
             if (confirm("Do you want to replay?")) {
-                location.replace("PlanesBattle.html");
+                location.replace("https://vantoan-case-study-tank-battle-module1.netlify.app/PlanesBattle.html");
             }
         }
     }
