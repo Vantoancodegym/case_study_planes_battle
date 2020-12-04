@@ -15,7 +15,7 @@ class Bullet {
 
     drawBullet() {
         this.ctx.beginPath();
-        this.ctx.fillStyle = BULLET_DEFAULT_COLOR;
+        this.ctx.fillStyle = bullet_color;
         this.ctx.arc(this.x, this.y, this.radius, 0, 2*Math.PI);
         this.ctx.fill();
     };

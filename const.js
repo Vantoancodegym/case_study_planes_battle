@@ -20,7 +20,7 @@ let enemy_speed=5;
 const BULLET_DEFAULT_RADIUS = 2;
 const BULLET_DEFAULT_SPEED = 20;
 const BULLET_DEFAULT_DAMAGE = 30;
-const BULLET_DEFAULT_COLOR = "red";
+let bullet_color = "red";
 
 const SCORE_DEFAULT_COLOR = "red";
 const FONT = "bold 20px verdana, sans-serif";

@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="227f1b27-fcae-4ce9-97c8-8caf62beddfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/classGameBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/classGameBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classBullet.js" beforeDir="false" afterPath="$PROJECT_DIR$/classBullet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my7.js" beforeDir="false" afterPath="$PROJECT_DIR$/my7.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,7 @@
       <workItem from="1606910979092" duration="10903000" />
       <workItem from="1606957037597" duration="27026000" />
       <workItem from="1607001284945" duration="6326000" />
-      <workItem from="1607043466047" duration="1170000" />
+      <workItem from="1607043466047" duration="2956000" />
     </task>
     <servers />
   </component>
@@ -85,5 +89,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="339" y="164" key="run.anything.popup" timestamp="1607045355835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607045355835" />
   </component>
 </project>
