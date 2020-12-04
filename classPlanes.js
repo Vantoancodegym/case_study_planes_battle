@@ -20,6 +20,7 @@ class Planes{
                 if(this == allPlanes[0]){
                     gameBoard.checkDie();
                 }else {
+                    gameBoard.drawExplosive(this.x,this.y)
                     explosionAudio.play();
                     gameBoard.score ++;
                     this.isDisapear=true;

@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="227f1b27-fcae-4ce9-97c8-8caf62beddfe" name="Default Changelist" comment="" />
+    <list default="true" id="227f1b27-fcae-4ce9-97c8-8caf62beddfe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classGameBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/classGameBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classPlanes.js" beforeDir="false" afterPath="$PROJECT_DIR$/classPlanes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +70,7 @@
       <workItem from="1606910979092" duration="10903000" />
       <workItem from="1606957037597" duration="27026000" />
       <workItem from="1607001284945" duration="6326000" />
-      <workItem from="1607043466047" duration="4828000" />
+      <workItem from="1607043466047" duration="6248000" />
     </task>
     <servers />
   </component>

@@ -40,6 +40,11 @@ class GameBoard {
         this.ctx.fillStyle = SCORE_DEFAULT_COLOR;
         this.ctx.fillText("HP: " + allPlanes[0].hp, 300, 30);
     };
+    drawExplosive(x,y) {
+        this.image = document.getElementById("explosive");
+        this.ctx.beginPath();
+        this.ctx.drawImage(this.image, x, y);
+    };
 
     clearRect() {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
